@@ -1,12 +1,8 @@
 markdown
-Copiar código
-# delivery_food_company
-
-This dashboard, developed using Streamlit, provides an analytical view of a food delivery company's operations. It visualizes and analyzes data related to delivery times, traffic conditions, and delivery distances.
 
 ## Overview
 
-The `delivery_food_company` dashboard offers insights into the efficiency of food delivery services. It leverages multiple data visualization techniques to help stakeholders understand key metrics such as average delivery time, traffic impact on deliveries, and distance traveled by delivery personnel.
+The `delivery_food_company` dashboard offers insights into the efficiency of food delivery services. It leverages multiple data visualization techniques to help stakeholders understand the performance of the business such as average delivery time, traffic impact on deliveries, and distance traveled by delivery personnel.
 
 ## Features
 
@@ -19,3 +15,7 @@ The `delivery_food_company` dashboard offers insights into the efficiency of foo
 ## Data Processing
 
 The dashboard processes and cleans data, removing irrelevant values, converting data types, and standardizing text formats to ensure accurate analysis.
+
+# Final Product Demo 
+
+
