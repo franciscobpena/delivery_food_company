@@ -1,22 +1,50 @@
-# Delivery Food Company Dashboard
+# Desenvolvimento de Score de Crédito para Solicitantes de Empréstimos Pessoais
 
-## Overview
+## Contexto
 
-The [delivery_food_company dashboard](https://deliveryfoodcompany-dashboardbyfranciscopena.streamlit.app/) offers insights into the efficiency of food delivery services. It leverages multiple data visualization techniques to help stakeholders understand the performance of the business, such as average delivery time, traffic impact on deliveries, and distance traveled by delivery personnel.
+Este projeto desenvolve um modelo de credit scoring para avaliar novos solicitantes de empréstimos pessoais. 
+O modelo utiliza dados históricos de clientes que tiveram empréstimos aprovados anteriormente, com o objetivo de prever o risco de crédito de futuros solicitantes.
 
-## Features
+## Conclusões
 
-- **Overall Metrics**: Displays unique deliveries, average distances, average delivery times, and their standard deviations.
-- **City Analysis**: Provides average delivery times by city, with visualizations of error bars representing standard deviation.
-- **Order Type Analysis**: Presents a detailed table of average delivery times based on the type of order in different cities.
-- **Traffic and Festival Impact**: Analyzes how traffic density and festivals affect delivery times.
-- **Geographical Visualization**: Visualizes delivery locations on a map, showing the impact of traffic density in various cities.
+O modelo de credit scoring desenvolvido apresenta as seguintes características e resultados:
 
-## Data Processing
+* **Variáveis do modelo final:**
+  * QTDE_EMPRESTIMOS_12M
+  * QTDE_CHEQUE_ESPECIAL_12M
+  * QTDE_PGTOS_EM_ATRASO_12M
+  * VALOR_PGTOS_12M
+  * FLAG_PGTO_PARCIAL_12M
 
-The dashboard processes and cleans data, removing irrelevant values, converting data types, and standardizing text formats to ensure accurate analysis.
+* **Ponto de corte ótimo:** 0.84
 
-## Final Product Demo
+* **Desempenho do modelo:**
+  * Acurácia: ~60%
+  * Especificidade: ~64%
+  * Sensibilidade: ~59%
+  * AUC: ~0.66
+  * KS: ~0.26
 
+O modelo demonstra um desempenho aceitável, sem evidências de overfitting. No entanto, há margem para melhorias em seu poder preditivo.
+
+## Metodologia utilizada
+
+- Análise Exploratória de Dados (EDA);
+- Análise do Poder Preditivo das Variáveis;
+- Modelagem com Regressão Logística;
+- Avaliação de Desempenho do Model.
+
+## Demo
 ![Dashboard Demo](https://github.com/franciscobpena/delivery_food_company/blob/main/painel.gif)
+
+## Próximos Passos
+
+1. Calcular e interpretar scores para clientes específicos.
+2. Explorar a inclusão de novas variáveis preditivas ou criação de features derivadas.
+3. Investigar técnicas de balanceamento de classes.
+4. Testar algoritmos alternativos de machine learning (ex: Random Forest, Gradient Boosting).
+5. Refinar o modelo com base em feedback de implementação prática.
+
+
+
 
