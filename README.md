@@ -14,7 +14,7 @@ An online dashboard accessible on any internet-connected device.
 [Access the Dashboard Here](https://deliveryfoodcompany-dashboardbyfranciscopena.streamlit.app/)
 
 ## Conclusion
-The dashboard provides the CEO with visibility over key growth metrics, highlighting increases in the number of orders between weeks 6 and 13 of 2022.
+The dashboard provides visibility over key growth metrics, highlighting increases in the number of orders between weeks 6 and 13 of 2022.
 
 ## Next Steps
 1. Simplify the metrics presented.
