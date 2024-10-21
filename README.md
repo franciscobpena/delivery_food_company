@@ -1,50 +1,22 @@
-# Score de Crédito para Empréstimos Pessoais
+# Development of a Business Management Dashboard with Streamlit
 
-## Contexto
+## Objective
+Develop a dashboard that consolidates the main growth metrics to assist in decision-making.
 
-Este projeto desenvolve um modelo de credit scoring para avaliar novos solicitantes de empréstimos pessoais. 
-O modelo utiliza dados históricos de clientes que tiveram empréstimos aprovados anteriormente, com o objetivo de prever o risco de crédito de futuros solicitantes.
+## Top 3 Insights
+- **Daily Order Variation**: Approximately 10% variation in the number of orders on consecutive days.
+- **Traffic Conditions**: Semi-Urban cities do not exhibit low traffic conditions.
+- **Delivery Time**: Largest variations occur during sunny weather.
 
-## Conclusões
+## Final Product
+An online dashboard accessible on any internet-connected device.
 
-O modelo de credit scoring desenvolvido apresenta as seguintes características e resultados:
+[Access the Dashboard Here](https://deliveryfoodcompany-dashboardbyfranciscopena.streamlit.app/)
 
-* **Variáveis do modelo final:**
-  * QTDE_EMPRESTIMOS_12M
-  * QTDE_CHEQUE_ESPECIAL_12M
-  * QTDE_PGTOS_EM_ATRASO_12M
-  * VALOR_PGTOS_12M
-  * FLAG_PGTO_PARCIAL_12M
+## Conclusion
+The dashboard provides the CEO with visibility over key growth metrics, highlighting increases in the number of orders between weeks 6 and 13 of 2022.
 
-* **Ponto de corte ótimo:** 0.84
-
-* **Desempenho do modelo:**
-  * Acurácia: ~60%
-  * Especificidade: ~64%
-  * Sensibilidade: ~59%
-  * AUC: ~0.66
-  * KS: ~0.26
-
-O modelo demonstra um desempenho aceitável, sem evidências de overfitting. No entanto, há margem para melhorias em seu poder preditivo.
-
-## Metodologia utilizada
-
-- Análise Exploratória de Dados (EDA);
-- Análise do Poder Preditivo das Variáveis;
-- Modelagem com Regressão Logística;
-- Avaliação de Desempenho do Model.
-
-## Demo
-![Dashboard Demo](https://github.com/franciscobpena/delivery_food_company/blob/main/painel.gif)
-
-## Próximos Passos
-
-1. Calcular e interpretar scores para clientes específicos.
-2. Explorar a inclusão de novas variáveis preditivas ou criação de features derivadas.
-3. Investigar técnicas de balanceamento de classes.
-4. Testar algoritmos alternativos de machine learning (ex: Random Forest, Gradient Boosting).
-5. Refinar o modelo com base em feedback de implementação prática.
-
-
-
-
+## Next Steps
+1. Simplify the metrics presented.
+2. Implement new filters.
+3. Add new business perspectives.
