@@ -1,4 +1,4 @@
-# Desenvolvimento de Score de Crédito para Solicitantes de Empréstimos Pessoais
+# Score de Crédito para Empréstimos Pessoais
 
 ## Contexto
 
